@@ -45,5 +45,15 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>Camera access is required to scan QR codes for device provisioning</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Location permission is required to access Wi-Fi network information during provisioning</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Local network access is required to communicate with ESP devices via SoftAP</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Bluetooth access is required to discover and connect to ESP devices</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Bluetooth access is required to discover and connect to ESP devices</string>
 </dict>
 </plist>
