@@ -65,6 +65,8 @@ build/
 **/ios/Runner/GeneratedPluginRegistrant.*
 **/ios/.swiftpm/
 **/ios/Podfile.lock
+# Exception: example/ios/Podfile.lock is checked in
+!example/ios/Podfile.lock
 **/ios/Pods.xcodeproj/
 **/ios/*.xcworkspace/xcuserdata/
 **/ios/*.xcodeproj/xcuserdata/
@@ -77,8 +79,18 @@ example/android/app/build/
 example/android/local.properties
 example/ios/Pods/
 example/ios/.symlinks/
-example/ios/Flutter/
-example/ios/Podfile.lock
+# Note: example/ios/Flutter/ config files are checked in and should be published
+# example/ios/Flutter/AppFrameworkInfo.plist
+# example/ios/Flutter/Debug.xcconfig
+# example/ios/Flutter/Release.xcconfig
+example/ios/Flutter/Flutter.framework
+example/ios/Flutter/Flutter.podspec
+example/ios/Flutter/Generated.xcconfig
+example/ios/Flutter/app.flx
+example/ios/Flutter/app.zip
+example/ios/Flutter/flutter_assets/
+example/ios/Flutter/flutter_export_environment.sh
+# Note: example/ios/Podfile.lock is checked in but should not be published (see .pubignore)
 example/ios/Runner/GeneratedPluginRegistrant.*
 
 # Coverage

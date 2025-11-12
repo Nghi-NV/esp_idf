@@ -53,7 +53,17 @@ example/android/app/build/
 example/android/.gradle/
 example/ios/Pods/
 example/ios/.symlinks/
-example/ios/Flutter/
+# Note: Keep example/ios/Flutter/ config files for example to work
+# But exclude generated files
+example/ios/Flutter/Flutter.framework
+example/ios/Flutter/Flutter.podspec
+example/ios/Flutter/Generated.xcconfig
+example/ios/Flutter/app.flx
+example/ios/Flutter/app.zip
+example/ios/Flutter/flutter_assets/
+example/ios/Flutter/flutter_export_environment.sh
+# Podfile.lock should not be published
+example/ios/Podfile.lock
 example/ios/Runner/GeneratedPluginRegistrant.*
 
 # IDE
